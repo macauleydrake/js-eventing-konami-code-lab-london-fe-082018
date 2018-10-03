@@ -4,7 +4,7 @@ function init() {
   document.body.addEventListener('keydown', function(event) {
   alert(event.which)
   })
-  if
+  if (code)
 }
 
 

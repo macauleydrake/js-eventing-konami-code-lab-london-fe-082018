@@ -13,8 +13,6 @@ function init() {
       alert("Hurray!");
  
       index = 0;
-  }
 }
-
 
 init();

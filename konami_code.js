@@ -4,7 +4,10 @@ function init() {
   document.body.addEventListener('keydown', function(event) {
   alert(event.which)
   })
-  if (code)
+  let index = 0 
+  if (key === code) {
+    alert 
+  }
 }
 
 

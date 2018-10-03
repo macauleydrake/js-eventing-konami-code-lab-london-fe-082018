@@ -5,8 +5,9 @@ function init() {
   alert(event.which)
   })
   let index = 0 
-  if (key === code) {
-    alert 
+  function onKeyDownHandler(e) {
+  const key = parseInt(e.detail || e.which);
+
   }
 }
 

@@ -4,15 +4,16 @@ function init() {
   document.body.addEventListener('keydown', function(event) {
   alert(event.which)
   })
-  let index = 0 
-  function onKeyDownHandler(e) {
-  const key = parseInt(e.detail || e.which);
-  if (key === code[index]) {
-    index++;
-  if (index === code.length) {
-      alert("Hurray!");
- 
-      index = 0;
+}
+let index = 0 
+function onKeyDownHandler(e) {
+const key = parseInt(e.detail || e.which);
+if (key === code[index]) {
+  index++;
+if (index === code.length) {
+    alert("Hurray!");
+
+    index = 0;}
 }
 
 init();
